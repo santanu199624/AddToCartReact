@@ -1,0 +1,29 @@
+.cartCard{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image{
+    width: 200px;
+    height: 150px;
+}
+
+.image img{
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.remove_btn{
+    background-color: brown;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    margin-right: 15px;
+}

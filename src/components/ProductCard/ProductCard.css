@@ -1,0 +1,27 @@
+.card{
+    max-width: 23%;
+    margin-top: 20px;
+}
+
+.image{
+    width: 100%;
+}
+
+.image img{
+    max-width: 100%;
+}
+
+.card_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.add_to_cart{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
